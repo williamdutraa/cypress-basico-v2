@@ -36,7 +36,7 @@ document.querySelector('button[type="submit"]')
       return showAndHideErrorMessage()
     }
     if (!emailField.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
-     // return showAndHideErrorMessage()
+      return showAndHideErrorMessage()
     }
     firstNameField.value = ''
     lastNameField.value = ''
@@ -47,7 +47,7 @@ document.querySelector('button[type="submit"]')
     helpRadio.checked = true
     emailCheckbox.checked = false
     phoneCheckbox.checked = false
-    fileField.value = ''
+    fileField.value = 
     phoneLabelSpan.style.display = 'none'
     successMessage.style.display = 'block'
     isPhoneRequired = false
