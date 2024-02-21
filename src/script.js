@@ -47,7 +47,8 @@ document.querySelector('button[type="submit"]')
     helpRadio.checked = true
     emailCheckbox.checked = false
     phoneCheckbox.checked = false
-    fileField.value = phoneLabelSpan.style.display = 'none'
+    fileField.value = ''
+    phoneLabelSpan.style.display = 'none'
     successMessage.style.display = 'block'
     isPhoneRequired = false
     scroll(0,0)
